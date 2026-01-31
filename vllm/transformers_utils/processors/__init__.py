@@ -14,7 +14,7 @@ from vllm.transformers_utils.processors.hunyuan_vl import HunYuanVLProcessor
 from vllm.transformers_utils.processors.hunyuan_vl_image import HunYuanVLImageProcessor
 from vllm.transformers_utils.processors.ovis import OvisProcessor
 from vllm.transformers_utils.processors.ovis2_5 import Ovis2_5Processor
-
+from vllm.transformers_utils.processors.deepseek_ocr2 import DeepseekOCR2Processor
 __all__ = [
     "BagelProcessor",
     "DeepseekVLV2Processor",
@@ -22,4 +22,5 @@ __all__ = [
     "HunYuanVLImageProcessor",
     "OvisProcessor",
     "Ovis2_5Processor",
+    "DeepseekOCR2Processor",
 ]
